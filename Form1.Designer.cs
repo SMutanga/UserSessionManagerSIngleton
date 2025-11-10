@@ -71,7 +71,7 @@
             // txtUsername
             // 
             this.txtUsername.BackColor = System.Drawing.SystemColors.Info;
-            this.txtUsername.Location = new System.Drawing.Point(132, 79);
+            this.txtUsername.Location = new System.Drawing.Point(226, 85);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(198, 20);
             this.txtUsername.TabIndex = 3;
@@ -79,14 +79,14 @@
             // txtRole
             // 
             this.txtRole.BackColor = System.Drawing.SystemColors.Info;
-            this.txtRole.Location = new System.Drawing.Point(132, 108);
+            this.txtRole.Location = new System.Drawing.Point(226, 123);
             this.txtRole.Name = "txtRole";
             this.txtRole.Size = new System.Drawing.Size(198, 20);
             this.txtRole.TabIndex = 4;
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(414, 82);
+            this.btnLogin.Location = new System.Drawing.Point(487, 82);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(164, 23);
             this.btnLogin.TabIndex = 5;
@@ -96,7 +96,7 @@
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(414, 125);
+            this.btnLogout.Location = new System.Drawing.Point(487, 123);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(164, 23);
             this.btnLogout.TabIndex = 6;
@@ -106,7 +106,7 @@
             // 
             // btnCheckSession
             // 
-            this.btnCheckSession.Location = new System.Drawing.Point(414, 166);
+            this.btnCheckSession.Location = new System.Drawing.Point(487, 166);
             this.btnCheckSession.Name = "btnCheckSession";
             this.btnCheckSession.Size = new System.Drawing.Size(164, 23);
             this.btnCheckSession.TabIndex = 8;
