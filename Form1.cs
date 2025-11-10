@@ -11,14 +11,6 @@ namespace UserSessionManagerSIngleton
             UpdateStatus();
         }
 
-
-        private void btnLogout_Click(object sender, EventArgs e)
-        {
-            UserSessionManager.Instance.Logout();
-            MessageBox.Show("Logged out!");
-            UpdateStatus();
-        }
-
         private void UpdateStatus()
         {
             var session = UserSessionManager.Instance;
@@ -50,6 +42,13 @@ namespace UserSessionManagerSIngleton
             MessageBox.Show($"Logged in!\nIsLoggedIn = {UserSessionManager.Instance.IsLoggedIn}\nUsername = {UserSessionManager.Instance.Username}\nRole = {UserSessionManager.Instance.Role}");
 
 
+            UpdateStatus();
+        }
+
+        private void btnLogout_Click_1(object sender, EventArgs e)
+        {
+            UserSessionManager.Instance.Logout();
+            MessageBox.Show("Logged out!");
             UpdateStatus();
         }
     }
