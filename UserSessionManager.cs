@@ -1,8 +1,9 @@
-﻿namespace SingletonExample
+﻿namespace UserSessionManagerSIngleton
 {
     public class UserSessionManager
     {
         private static UserSessionManager _instance;
+
 
         private UserSessionManager()
         {
@@ -11,6 +12,7 @@
             Role = string.Empty;
         }
 
+  
         public static UserSessionManager Instance
         {
             get
@@ -21,10 +23,12 @@
             }
         }
 
+ 
         public string Username { get; private set; }
         public string Role { get; private set; }
         public bool IsLoggedIn { get; private set; }
 
+  
         public void Login(string username, string role)
         {
             Username = username;
