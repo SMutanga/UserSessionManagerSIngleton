@@ -30,7 +30,7 @@ namespace UserSessionManagerSIngleton
                 return;
             }
 
-            // Login using the Singleton
+   
             var session = UserSessionManager.Instance;
             session.Login(username, role);
 
